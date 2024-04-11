@@ -107,3 +107,32 @@ font-size: larger;
   width: 100%;
   font-size: xx-small;
 }
+@media (max-width: 768px) {
+  .min-img {
+      min-width: 50%; /* Adjust the minimum width as per your requirement */
+  }
+  .icon {
+      font-size: 50%; /* Adjust the font-size for responsive icons */
+  }
+  .icon-1{
+    font-size : 30%
+  }
+ 
+}
+
+@media (max-width: 576px) {
+  .min-img2 {
+      min-width: 100px; /* Adjust the minimum width as per your requirement */
+  }
+  .text-banner {
+    font-size: 0.5rem;
+  }
+}
+
+.slider-shadow{
+  text-shadow: 1px 1px 4px black;
+}
+.sliderbox-radius{
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
